@@ -1,0 +1,30 @@
+Sélectionnez un sujet qui vous tient à coeur
+
+Le but de l'exercice est de créer une page d'articles par rapport à ce sujet
+
+La page doit être d'une structure basique, mais complète
+
+Dans le body (de la page), il doit y avoir :
+
+    1 header 
+
+    1 footer 
+
+    1 main 
+
+    1 section
+
+    4 articles
+
+    Pour chaque article :
+
+        1 titre 
+        1 photo
+        1 paragraphe
+
+    Pour en faire plus :
+
+        Utiliser des balises de style 
+        Redimensionner les images 
+        Insérer des séparateurs 
+        Toute recherche pour aller plus loin :)

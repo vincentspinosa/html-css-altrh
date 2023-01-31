@@ -1,0 +1,9 @@
+Dans google chrome, on peut faire clic droit -> inspecter pour ouvrir l'Inspecteur
+
+Qu'est-ce que l'Inspecteur ?
+
+    C'est un service / logiciel qui nous permet d'avoir accès et de modifier le contenu HTML 
+    (pas sa structure) dans l'onglet Elements.
+
+    Dans Sources, on a accès à toutes les ressources que le moteur de recherce utilise pour afficher la 
+    page.

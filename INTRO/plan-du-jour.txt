@@ -1,0 +1,7 @@
+Chacun nous fera une petite présentation (2 min) de lui-même et pourquoi il est ici
+Présentation d'HTML et CSS
+Téléchargera Visual Studio Code (VSCode) : le logiciel sur lequel nous allons commander
+Commencera à coder 
+Validator W3C
+Continuer présenter HTML
+Atelier

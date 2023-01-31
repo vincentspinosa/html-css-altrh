@@ -1,0 +1,73 @@
+<!-- https://www.w3schools.com/html/html_forms.asp -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires</title>
+</head>
+<body>
+    <form action="formulaires.html" method="POST">
+
+        <fieldset>
+            <legend>Zone 1</legend>
+            <label for="name">Nom&nbsp;:</label>
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <br>
+            <label for="email">Email&nbsp;:</label>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <br>
+            <label for="motDePasse">Mot de passe&nbsp;:</label>
+            <input type="password" name="motDePasse" placeholder="***********" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Zone 2</legend>
+            <label for="niveau">Niveau&nbsp;</label>
+            <br>
+            <input type="radio" name="niveau1" value="Debutant">
+            <label for="niveau1">Débutant</label>
+            <br>
+            <input type="radio" name="niveau2" value="Intermediaire">
+            <label for="niveau2">Intermédiaire</label>
+            <br>
+            <input type="radio" name="niveau3" value="Confirme">
+            <label for="niveau3">Confirmé</label>
+            <br>
+            <label for="experience">Expérience&nbsp;</label>
+            <input type="range" name="experience" min="0" max="30" value="5" step="1">
+        </fieldset>
+
+        <fieldset>
+            <legend>Zone 3</legend>
+            <label for="competences">Compétences&nbsp;</label>
+            <br>
+            <input type="checkbox" name="HTMl" value="HTML">
+            <label for="HTML">HTML</label>
+            <br>
+            <input type="checkbox" name="CSS" value="CSS">
+            <label for="CSS">CSS</label>
+            <br>
+            <input type="checkbox" name="JavaScript" value="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+        </fieldset>
+
+        <!-- zone sélect -->
+
+        <fieldset>
+            <legend>Zone 4</legend>
+            <label for="satisfaction">Êtes-vous satisfait&nbsp;?</label>
+            <select name="satisfaction">
+                <option value="Oui">Oui</option>
+                <option value="Non">Non</option>
+            </select>
+            <br>
+            <label for="commentaire">Un commentaire&nbsp;?</label>
+            <br>
+            <textarea name="commentaire" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
